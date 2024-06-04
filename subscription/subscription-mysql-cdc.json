@@ -13,6 +13,7 @@
     "database.history.kafka.topic": "subscription.dbhistory",
     "include.schema.changes": "false",
     "topic.prefix": "subscription",
+    "skipped.operations": "t,u,d",
     "schema.history.internal.kafka.bootstrap.servers": "kafka:9092",
     "schema.history.internal.kafka.topic": "schemahistory.subscription"
   }
